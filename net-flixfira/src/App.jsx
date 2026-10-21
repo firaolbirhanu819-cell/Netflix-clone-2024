@@ -1,9 +1,15 @@
-import './App.css'
-// import React from 'react'
+import Header from './components/Header.jsx'
+import Body from './components/Body.jsx'
+import Footer from './components/Footer.jsx'
+
 function App() {
   return (
-    <h1>hello</h1>
-  );
+    <>
+      <Header />
+      <Body />
+      <Footer />
+    </>
+  )
 }
 
 export default App
